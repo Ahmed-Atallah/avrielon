@@ -1,0 +1,454 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="AVRIELON - مساحة عمل واحدة لإدارة عملائك ومشاريعك ومهامك.">
+  <meta name="theme-color" content="#f5f7f8">
+
+  <title>AVRIELON — مساحة واحدة لإدارة عملك</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container nav-wrapper">
+
+      <a href="#" class="brand" aria-label="AVRIELON Home">
+        <span class="brand-mark">A</span>
+        <span>AVRIELON</span>
+      </a>
+
+      <nav class="nav" id="mainNav">
+        <a href="#features" data-i18n="navFeatures">المميزات</a>
+        <a href="#how" data-i18n="navHow">كيف يعمل</a>
+        <a href="#pricing" data-i18n="navPricing">الأسعار</a>
+        <a href="#about" data-i18n="navAbout">عن AVRIELON</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="icon-button" id="themeToggle" aria-label="Change theme">
+          <span id="themeIcon">☾</span>
+        </button>
+
+        <button class="language-button" id="languageToggle">EN</button>
+
+        <a href="#contact" class="button button-small button-primary nav-cta"
+           data-i18n="navStart">ابدأ الآن</a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Open menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero section">
+      <div class="container hero-grid">
+
+        <div class="hero-content">
+          <div class="eyebrow">
+            <span class="status-dot"></span>
+            <span data-i18n="heroBadge">مساحة عمل أكثر تنظيمًا</span>
+          </div>
+
+          <h1 data-i18n="heroTitle">
+            عملك كله في مكان واحد.
+            <span>ببساطة ووضوح.</span>
+          </h1>
+
+          <p class="hero-description" data-i18n="heroDescription">
+            أدر عملاءك ومشاريعك ومهامك من مساحة واحدة.
+            ركّز على إنجاز العمل بدلًا من التنقل بين الأدوات.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#contact" class="button button-primary">
+              <span data-i18n="heroPrimary">اكتشف AVRIELON</span>
+              <span class="arrow">←</span>
+            </a>
+
+            <a href="#features" class="button button-secondary"
+               data-i18n="heroSecondary">استكشف المميزات</a>
+          </div>
+
+          <div class="hero-note">
+            <span class="note-icon">✦</span>
+            <span data-i18n="heroNote">
+                   منصة مصممة للمحترفين والشركات الطموحة
+            </span>
+          </div>
+        </div>
+
+        <!-- Product Preview -->
+        <div class="hero-visual">
+          <div class="dashboard-window">
+
+            <div class="window-top">
+              <div class="window-brand">
+                <span class="mini-brand">N</span>
+                <span>AVRIELON</span>
+              </div>
+
+              <div class="window-dots">
+                <i></i><i></i><i></i>
+              </div>
+            </div>
+
+            <div class="dashboard-preview">
+
+              <aside class="preview-sidebar">
+                <div class="preview-user">
+                  <div class="avatar">A</div>
+                  <div>
+                    <strong>Ahmed</strong>
+                    <small>Workspace</small>
+                  </div>
+                </div>
+
+                <div class="preview-menu active">▦ <span>Overview</span></div>
+                <div class="preview-menu">♙ <span>Clients</span></div>
+                <div class="preview-menu">▤ <span>Projects</span></div>
+                <div class="preview-menu">✓ <span>Tasks</span></div>
+
+                <div class="preview-sidebar-bottom">⚙ Settings</div>
+              </aside>
+
+              <div class="preview-main">
+                <div class="preview-heading">
+                  <div>
+                    <small>Workspace / Overview</small>
+                    <h3>Good morning, Ahmed</h3>
+                  </div>
+                  <div class="preview-avatar">A</div>
+                </div>
+
+                <div class="preview-stats">
+                  <div class="stat-card">
+                    <small>Clients</small>
+                    <strong>24</strong>
+                    <span>↗ Active relationships</span>
+                  </div>
+
+                  <div class="stat-card">
+                    <small>Projects</small>
+                    <strong>08</strong>
+                    <span>↗ In progress</span>
+                  </div>
+
+                  <div class="stat-card">
+                    <small>Tasks</small>
+                    <strong>16</strong>
+                    <span>↗ To complete</span>
+                  </div>
+                </div>
+
+                <div class="preview-projects">
+                  <div class="preview-section-title">
+                    <strong>Active projects</strong>
+                    <small>View all →</small>
+                  </div>
+
+                  <div class="project-row">
+                    <div class="project-icon">W</div>
+                    <div class="project-info">
+                      <strong>Website redesign</strong>
+                      <small>Design project</small>
+                    </div>
+                    <div class="project-progress">
+                      <span>75%</span>
+                      <div><i style="width:75%"></i></div>
+                    </div>
+                  </div>
+
+                  <div class="project-row">
+                    <div class="project-icon purple">M</div>
+                    <div class="project-info">
+                      <strong>Marketing website</strong>
+                      <small>Development</small>
+                    </div>
+                    <div class="project-progress">
+                      <span>45%</span>
+                      <div><i style="width:45%"></i></div>
+                    </div>
+                  </div>
+
+                  <div class="project-row">
+                    <div class="project-icon orange">B</div>
+                    <div class="project-info">
+                      <strong>Brand identity</strong>
+                      <small>Branding project</small>
+                    </div>
+                    <div class="project-progress">
+                      <span>90%</span>
+                      <div><i style="width:90%"></i></div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="floating-card floating-card-top">
+            <span>✓</span>
+            <div>
+              <strong>Task completed</strong>
+              <small>Project progress updated</small>
+            </div>
+          </div>
+
+          <div class="floating-card floating-card-bottom">
+            <span class="floating-icon">↗</span>
+            <div>
+              <strong>Everything connected</strong>
+              <small>One workspace</small>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="section features-section" id="features">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="eyebrow" data-i18n="featuresEyebrow">مساحة عمل متكاملة</span>
+          <h2 data-i18n="featuresTitle">
+            كل ما تحتاجه لإدارة عملك.
+            <span>دون تعقيد.</span>
+          </h2>
+          <p data-i18n="featuresDescription">
+            أدوات مترابطة تساعدك على تنظيم العمل من أول تواصل مع العميل
+            حتى تسليم المشروع.
+          </p>
+        </div>
+
+        <div class="features-grid">
+
+          <article class="feature-card">
+            <div class="feature-icon teal">♙</div>
+            <h3 data-i18n="feature1Title">إدارة العملاء</h3>
+            <p data-i18n="feature1Description">
+              احتفظ ببيانات عملائك ومعلومات التواصل وسجل التعاملات في مكان واحد.
+            </p>
+            <span class="feature-number">01</span>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon blue">▤</div>
+            <h3 data-i18n="feature2Title">إدارة المشاريع</h3>
+            <p data-i18n="feature2Description">
+              أنشئ مشاريعك، اربطها بالعملاء، وتابع مراحل الإنجاز بوضوح.
+            </p>
+            <span class="feature-number">02</span>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon purple">✓</div>
+            <h3 data-i18n="feature3Title">تنظيم المهام</h3>
+            <p data-i18n="feature3Description">
+              حدد الأولويات والمواعيد وتابع ما تم إنجازه وما ينتظر التنفيذ.
+            </p>
+            <span class="feature-number">03</span>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon orange">◎</div>
+            <h3 data-i18n="feature4Title">بوابة العميل</h3>
+            <p data-i18n="feature4Description">
+              شارك تقدم المشروع مع عميلك عبر مساحة خاصة ومنظمة.
+            </p>
+            <span class="feature-number">04</span>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="section how-section" id="how">
+      <div class="container how-grid">
+
+        <div class="how-intro">
+          <span class="eyebrow" data-i18n="howEyebrow">طريقة العمل</span>
+          <h2 data-i18n="howTitle">
+            من أول عميل
+            <span>حتى إنجاز المشروع.</span>
+          </h2>
+          <p data-i18n="howDescription">
+            اجعل سير عملك واضحًا ومترابطًا. كل خطوة لها مكانها.
+          </p>
+        </div>
+
+        <div class="steps">
+
+          <div class="step">
+            <span class="step-number">01</span>
+            <div>
+              <h3 data-i18n="step1Title">أضف العميل</h3>
+              <p data-i18n="step1Description">أنشئ ملفًا منظمًا لكل عميل.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <span class="step-number">02</span>
+            <div>
+              <h3 data-i18n="step2Title">أنشئ المشروع</h3>
+              <p data-i18n="step2Description">حدد التفاصيل والمراحل والموعد.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <span class="step-number">03</span>
+            <div>
+              <h3 data-i18n="step3Title">نظم المهام</h3>
+              <p data-i18n="step3Description">قسّم المشروع إلى خطوات قابلة للتنفيذ.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <span class="step-number">04</span>
+            <div>
+              <h3 data-i18n="step4Title">شارك التقدم</h3>
+              <p data-i18n="step4Description">دع العميل يتابع مشروعه بوضوح.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about-section" id="about">
+      <div class="container about-content">
+        <div class="about-mark">N</div>
+        <span class="eyebrow">AVRIELON</span>
+        <h2 data-i18n="aboutTitle">
+          وقت أقل في التنظيم.
+          <span>وقت أكثر في العمل.</span>
+        </h2>
+        <p data-i18n="aboutDescription">
+          نبني مساحة عمل تساعد المستقلين والفرق الصغيرة على إدارة أعمالهم
+          بطريقة أبسط وأكثر وضوحًا.
+        </p>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="section pricing-section" id="pricing">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="eyebrow" data-i18n="pricingEyebrow">خطط AVRIELON</span>
+          <h2 data-i18n="pricingTitle">خطة تناسب طريقة عملك.</h2>
+          <p data-i18n="pricingDescription">
+            الأسعار التالية تصور مبدئي وليست عروض اشتراك متاحة حاليًا.
+          </p>
+        </div>
+
+        <div class="pricing-grid">
+
+          <article class="price-card">
+            <span class="plan-name">Free</span>
+            <h3 data-i18n="freeTitle">ابدأ ببساطة</h3>
+            <div class="price"> $0 <small>/ month</small></div>
+            <p data-i18n="freeDescription">للتعرف على مساحة العمل وتنظيم البداية.</p>
+            <ul>
+              <li data-i18n="freeFeature1">إدارة أساسية للعملاء</li>
+              <li data-i18n="freeFeature2">مشاريع ومهام أساسية</li>
+              <li data-i18n="freeFeature3">مساحة عمل واحدة</li>
+            </ul>
+            <a href="#contact" class="button button-secondary button-full"
+               data-i18n="planContact">تواصل معنا</a>
+          </article>
+
+          <article class="price-card featured-price">
+            <span class="popular-label" data-i18n="popular">الخطة المقترحة</span>
+            <span class="plan-name">Starter</span>
+            <h3 data-i18n="starterTitle">نظم عملك</h3>
+            <div class="price">$7 <small>/ month</small></div>
+            <p data-i18n="starterDescription">للمستقل الذي يريد إدارة عملائه ومشاريعه.</p>
+            <ul>
+              <li data-i18n="starterFeature1">إدارة متقدمة للعملاء</li>
+              <li data-i18n="starterFeature2">مشاريع ومهام أكثر</li>
+              <li data-i18n="starterFeature3">بوابة العميل</li>
+            </ul>
+            <a href="#contact" class="button button-primary button-full"
+               data-i18n="planContact">تواصل معنا</a>
+          </article>
+
+          <article class="price-card">
+            <span class="plan-name">Studio</span>
+            <h3 data-i18n="studioTitle">وسّع فريقك</h3>
+            <div class="price">$29 <small>/ month</small></div>
+            <p data-i18n="studioDescription">للفرق والوكالات الصغيرة.</p>
+            <ul>
+              <li data-i18n="studioFeature1">مساحات عمل متعددة</li>
+              <li data-i18n="studioFeature2">أدوات تعاون الفريق</li>
+              <li data-i18n="studioFeature3">إدارة أوسع للمشاريع</li>
+            </ul>
+            <a href="#contact" class="button button-secondary button-full"
+               data-i18n="planContact">تواصل معنا</a>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-box">
+        <div>
+          <span class="eyebrow" data-i18n="contactEyebrow">ابدأ رحلتك</span>
+          <h2 data-i18n="contactTitle">هل تريد تجربة AVRIELON؟</h2>
+          <p data-i18n="contactDescription">
+            نحن في مرحلة بناء المنتج. تواصل معنا لمعرفة المزيد عن النسخة التجريبية.
+          </p>
+        </div>
+
+        <a href="mailto:hello@avrielon.example" class="button button-primary">
+          <span data-i18n="contactButton">تواصل معنا</span>
+          <span>↗</span>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <a href="#" class="brand">
+        <span class="brand-mark">N</span>
+        <span>AVRIELON</span>
+      </a>
+
+      <p data-i18n="footerText">مساحة واحدة لإدارة عملك.</p>
+
+      <span class="copyright">
+        © <span id="currentYear"></span> AVRIELON
+      </span>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
